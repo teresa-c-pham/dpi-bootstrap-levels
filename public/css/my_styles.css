@@ -1,9 +1,12 @@
-span {
+/* Default span and primary button */
+span, a {
   font-size: 20px;
   font-family: Helvetica;
-  display: flex;
-  width: 120px;
-  height: 50px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 10px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -12,12 +15,137 @@ span {
   border-radius: 10px;
   
 }
-span:hover {
+
+span:hover, .primary:hover {
   box-shadow: 0.1px 0.1px 0.1px 0.1px #3F00FF;
   background-color: #3F00FF;
 }
 
-span:active {
+span:active, .primary:active {
   box-shadow: 0.1px 0.1px 0.1px 0.1px ##1434A4;
   background-color: #1434A4;
+}
+/* Primary Unonbstrusive Button */
+.prime-unob {
+  background-color: transparent;
+  color: #0096FF;
+  border: 1px solid #0096FF;
+}
+
+.prime-unob:hover {
+  color: white;
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #0096FF;
+  background-color: #0096FF;
+}
+
+/* Secondary Buttons */
+.secondary {
+  background-color: grey;
+}
+
+.secondary:hover {
+  box-shadow: 0.1px 0.1px 0.1px 0.1px dimgrey;
+  background-color: dimgrey;
+}
+
+.second-unob {
+  background-color: transparent;
+  color: grey;
+  border: 1px solid grey;
+}
+
+.second-unob:hover {
+  color: white;
+  box-shadow: 0.1px 0.1px 0.1px 0.1px grey;
+  background-color: grey;
+}
+
+/* Success Buttons */
+.success {
+  background-color: forestgreen;
+}
+
+.success:hover{
+  box-shadow: 0.1px 0.1px 0.1px 0.1px darkgreen;
+  background-color: darkgreen;
+}
+
+.success-unob {
+  background-color: transparent;
+  color: forestgreen;
+  border: 1px solid forestgreen;
+}
+
+.success-unob:hover {
+  color: white;
+  box-shadow: 0.1px 0.1px 0.1px 0.1px forestgreen;
+  background-color: forestgreen;
+}
+
+/* Danger Buttons */
+.danger {
+  background-color: #FF3131;
+}
+
+.danger:hover {
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #DC143C;
+  background-color: #DC143C;
+}
+
+.danger-unob {
+  background-color: transparent;
+  color: #FF3131;
+  border: 1px solid #FF3131;
+}
+
+.danger-unob:hover {
+  color: white;
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #FF3131;
+  background-color: #FF3131;
+}
+
+/* Warning Buttons */
+.warning {
+  background-color: goldenrod;
+  color: black
+}
+
+.warning:hover {
+  box-shadow: 0.1px 0.1px 0.1px 0.1px gold;
+  background-color: gold;
+}
+
+.warn-unob {
+  background-color: transparent;
+  color: gold;
+  border: 1px solid gold;
+}
+
+.warn-unob:hover {
+  box-shadow: 0.1px 0.1px 0.1px 0.1px gold;
+  background-color: gold;
+  color: black;
+}
+
+/* Info Buttons */
+.info {
+  background-color: #22b2da;
+  color: black;
+}
+
+.info:hover {
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #72e8e1;
+  background-color: #72e8e1;
+}
+
+.info-unob {
+  background-color: transparent;
+  color: #72e8e1;
+  border: 1px solid #72e8e1;
+}
+
+.info-unob:hover {
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #72e8e1;
+  background-color: #72e8e1;
+  color: black;
 }
