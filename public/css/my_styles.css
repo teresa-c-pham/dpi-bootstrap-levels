@@ -22,9 +22,10 @@ span:hover, .primary:hover {
 }
 
 span:active, .primary:active {
-  box-shadow: 0.1px 0.1px 0.1px 0.1px ##1434A4;
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #1434A4;
   background-color: #1434A4;
 }
+
 /* Primary Unonbstrusive Button */
 .prime-unob {
   background-color: transparent;
