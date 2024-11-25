@@ -1,5 +1,5 @@
 /* Default span and primary button */
-span, a {
+span {
   font-size: 20px;
   font-family: Helvetica;
   display: inline-block;
